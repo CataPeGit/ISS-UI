@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpfui", "wpfui\wpfui.csproj", "{5DCDF155-943A-40C2-B0D6-EDA24AF40569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DCDF155-943A-40C2-B0D6-EDA24AF40569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCDF155-943A-40C2-B0D6-EDA24AF40569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCDF155-943A-40C2-B0D6-EDA24AF40569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCDF155-943A-40C2-B0D6-EDA24AF40569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B264BB-C5CC-4926-A963-2BD2662A7DE7}
+	EndGlobalSection
+EndGlobal

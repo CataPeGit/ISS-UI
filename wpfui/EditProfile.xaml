@@ -1,0 +1,17 @@
+﻿<Window x:Class="wpfui.EditProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfui"
+        mc:Ignorable="d"
+        Title="EditProfile" Height="450" Width="800">
+    <Grid>
+        <Label Content="Current User:" Margin="10,10,699,395"/>
+        <Button Content="Upload profile picture" HorizontalAlignment="Left" Margin="18,254,0,0" Height="43" Width="239" RenderTransformOrigin="0.505,0.569" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="15,78,0,0" TextWrapping="Wrap" Text="Here goes the bio. &#xD;&#xA;" VerticalAlignment="Top" Width="243" Height="157"/>
+        <Label Content="Current Bio:" Margin="10,44,699,364"/>
+        <TextBox HorizontalAlignment="Left" Margin="94,16,0,0" TextWrapping="Wrap" Text="Smiley" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+
+    </Grid>
+</Window>
